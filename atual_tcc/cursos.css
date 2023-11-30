@@ -124,8 +124,17 @@ main {
     margin-left: 13rem;
     font-size: 10px
 }
-.container .direita h1 {
+.container h1 {
     font-weight: 100;
+    position: relative;
+    right: 2rem;
+    top: -1rem;
+}
+.container p {
+    width: 100%;
+    position: relative;
+    right: 2rem;
+    top: -1rem;
 }
 .linha {
     display: flex;
@@ -140,6 +149,9 @@ main {
 
    
 }
+.linha h1 {
+    margin-bottom: 2rem;
+}
 
 .boxes{
 
@@ -148,16 +160,29 @@ main {
     justify-content: space-between;
 
 
-
 }
 .box{
     background-color: rgb(131, 131, 131);
     width: 30%;
+    padding: 2em 3rem;
+    border-radius: 10px;
+    margin-left: 2rem;
+    position: relative;
 
 /*     padding: 4rem 4rem;
     margin-bottom: 2rem;
     text-align: center; */
 
+}
+.box div {
+    color: rgb(255, 255, 255);
+    background-color: #FF9800;
+    border-radius: 25px;
+    text-align: center;
+    border: 1px solid #FF9800;
+    position: absolute;
+    right: .5rem;
+    bottom: .5rem;
 }
 
 @media screen and (max-width: 700px) {
